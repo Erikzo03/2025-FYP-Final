@@ -1,20 +1,21 @@
 # Install all with:
 # pip install -r requirements.txt
+python==3.13.0
 
 # Math and data
 numpy==1.26.4          # math with arrays
 pandas==2.2.2          # work with tables and data
-scipy==1.13.1          # extra math tools
-
+scipy==1.14.1          # extra math tools
+ 
 # Charts and plots
-matplotlib==3.9.0      # draw graphs and images
-
+matplotlib==3.9.2      # draw graphs and images
+ 
 # Image processing
-opencv-python==4.9.0.80     # read and edit images
-scikit-image==0.23.2        # advanced image tools (e.g. filters, masks)
-
+opencv-python== 4.11.0.86    # read and edit images
+scikit-image==0.25.2        # advanced image tools (e.g. filters, masks)
+ 
 # Machine learning
-scikit-learn==1.5.0         # ML models and tools (like KMeans, classifiers)
-
+scikit-learn==1.5.2         # ML models and tools (like KMeans, classifiers)
+ 
 # Progress bar
 tqdm==4.66.4           # show progress in loops
